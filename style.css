@@ -68,20 +68,75 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    margin: auto;
 }
 
 .first-image {
     width: 200px;
-    background-color: #272727;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
-.second-image{
+.second-image {
     width: 200px;
-    background-color: #E55473;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
-.third-image{
+.third-image {
     width: 200px;
-    background-color: aqua;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+/* hot deal related style */
+
+.hot-deal-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 90px 90px 90px 200px;
+    margin: auto;
+}
+
+.deal-image{
+    width: 200px;
+    padding-right: 100px;
+}
+
+.btn{
+    color: red;
+}
+
+.left-side{
+    width: 400px;
+    text-align: center;
+}
+
+/* instagram related style */
+
+.instagram{
+    text-align: center;
+}
+
+.instagram-image{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.insta-img{
+    width: 150px;
+
 }
