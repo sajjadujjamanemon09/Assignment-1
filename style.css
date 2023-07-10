@@ -1,0 +1,87 @@
+/* common shared style */
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    border: 0;
+    font-size: 13px;
+    padding: 13px 27px;
+}
+
+.title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* header related style */
+
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+
+
+img {
+    width: 435px;
+    padding-right: 100px;
+    margin-bottom: 0px;
+}
+
+/* feature related style */
+
+.feature-container {
+    text-align: center;
+}
+
+.feature-title {
+    padding-top: 90px;
+    color: #272727;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.feature-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.first-image {
+    width: 200px;
+    background-color: #272727;
+}
+
+.second-image{
+    width: 200px;
+    background-color: #E55473;
+}
+
+.third-image{
+    width: 200px;
+    background-color: aqua;
+}
