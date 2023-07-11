@@ -11,7 +11,6 @@ body {
 
 .description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
@@ -34,70 +33,97 @@ body {
     font-weight: 700;
 }
 
+.title2 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 /* header related style */
 
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 30px 0px 150px;
+    justify-content: space-around;
+    padding: 100px 0px 0px 200px;
+    margin: auto;
 }
 
 
 img {
     width: 435px;
     padding-right: 100px;
-    margin-bottom: 0px;
+    margin-bottom: -4px;
 }
 
 /* feature related style */
 
-.feature-container {
+.feature-containar {
+    margin-bottom: 240px;
     text-align: center;
+    padding-top: 100px;
 }
 
-.feature-title {
-    padding-top: 90px;
-    color: #272727;
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.feature-image {
+.feature-img-boxs {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: auto;
+    align-items: center;
+    gap: 24px;
+    padding-top: 30px;
 }
 
-.first-image {
-    width: 200px;
+.feature-box1 {
+    width: 264px;
+    height: 338px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    background-color: rgba(167, 33, 98, 0.15);
 }
 
-.second-image {
-    width: 200px;
+.feature-box2 {
+    width: 264px;
+    height: 338px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    background: rgba(5, 151, 160, 0.15);
 }
 
-.third-image {
-    width: 200px;
+.feature-box3 {
+    width: 264px;
+    height: 338px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.feature-img1 {
+    padding: 58px 0px 10px 6px;
+    width: 200px;
+    height: 280px;
+}
+
+.feature-img2 {
+    padding: 58px 0px 10px 6px;
+    width: 250px;
+    height: 280px;
+}
+
+.feature-img3 {
+    padding: 58px 0px 10px 6px;
+    width: 240px;
+    height: 280px;
+}
+
+.box-title {
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
 /* hot deal related style */
 
-.hot-deal-container{
+.hot-deal-container {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -107,36 +133,107 @@ img {
     margin: auto;
 }
 
-.deal-image{
+.deal-image {
     width: 200px;
     padding-right: 100px;
 }
 
-.btn{
+.word {
     color: red;
 }
 
-.left-side{
+.left-side {
     width: 400px;
     text-align: center;
 }
 
 /* instagram related style */
 
-.instagram{
+.instagram-container {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.insta-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 05px 240px;
+}
+
+.insta-img-boxs {
+    display: flex;
+}
+
+.box-img {
+    padding: 10px;
+    width: 220px;
+    height: 250px;
+}
+
+/* latest related style */
+
+.latest-container {
+    height: 400px;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+.latest-banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.input-box {
+    border: 0px;
+    height: 40px;
+    width: 500px;
+    border-radius: 8px;
     text-align: center;
 }
 
-.instagram-image{
-    width: 80%;
-    display: flex;
-    margin: auto;
-    gap: 10px;
-    justify-content: space-between;
-    padding-bottom: 100px;
+
+/* footer related style */
+
+.footer-container {
+    width: 100%;
+    height: 80vh;
+    background-color: #111010;
+    background-size: cover;
 }
 
-.insta-img{
-    width: 150px;
+.footer-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 150px;
+}
 
+.flower {
+    color: #e55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 15px;
+    line-height: 45px;
+    font-weight: 300;
+
+}
+
+.footer-end {
+    margin-top: 10px;
+    color: rgba(143, 175, 251, 0.4);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
