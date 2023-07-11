@@ -181,6 +181,7 @@ img {
     background-position: center;
     text-align: center;
     padding-top: 200px;
+    background-size: 160vh;
 }
 
 
@@ -222,7 +223,7 @@ img {
 }
 
 .footer-description {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.975);
     text-align: center;
     font-size: 15px;
     line-height: 45px;
